@@ -1,9 +1,6 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 # Add "Edinburgh Waverley" to the end of the array
 stops.push('Edinburgh Waverly')
-# Add "Glasgow Queen St" to the start of the array
-stops.unshift('Glasgow Queen St')
-p stops
 
 # Complete these tasks:
 # Add "Edinburgh Waverley" to the end of the array
