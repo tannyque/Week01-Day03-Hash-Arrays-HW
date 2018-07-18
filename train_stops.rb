@@ -15,7 +15,7 @@ stops.delete_at(2)
 a = stops.count()
 # How many ways can we return "Falkirk High" from the array?
 stops[2]
-p stops
-
 # Reverse the positions of the stops in the array
+stops.reverse()
+
 # Print out all the stops using a for loop
