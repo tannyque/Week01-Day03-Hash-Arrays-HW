@@ -84,5 +84,9 @@ users['Avril'][:lottery_numbers].select{|x| x.even?}
 users['Erik'][:lottery_numbers].push(7)
 
 # Change Erik's hometown to Edinburgh
+
+p users['Erik'][:home_town] = "Edinburgh"
+
+
 # Add a pet dog to Erik called "Fluffy"
 # Add another person to the users hash
