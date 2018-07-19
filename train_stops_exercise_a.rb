@@ -27,6 +27,6 @@ end
 # Reverse the positions of the stops in the array
 stops.reverse()
 # Print out all the stops using a for loop
-for trains in stops
-  p trains
+for stop in stops
+  p stop
 end
