@@ -85,8 +85,14 @@ users['Erik'][:lottery_numbers].push(7)
 
 # Change Erik's hometown to Edinburgh
 
-p users['Erik'][:home_town] = "Edinburgh"
+users['Erik'][:home_town] = "Edinburgh"
 
 
 # Add a pet dog to Erik called "Fluffy"
+
+users['Erik'][:pets] = {
+  name: 'Fluffy',
+  species: 'dog',
+}
+
 # Add another person to the users hash
