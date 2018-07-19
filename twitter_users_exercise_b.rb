@@ -95,23 +95,43 @@ p users["Erik"][:home_town] = "Edinburgh"
 
 # Add a pet dog to Erik called "Fluffy"
 
-users["Erik"][:pets] = {
+# users["Erik"][:pets] = {
+#   name: "Fluffy",
+#   species: "dog",
+# }
+
+new_pet = {
   name: "Fluffy",
-  species: "dog",
+  species: "Dog"
 }
+users["Erik"][:pets].push(new_pet)
 
 # Add another person to the users hash
 
-users = {
-  "Tanny" => {
-  :twitter => "rorsach",
-  :lottery_numbers => [23, 41, 7, 2, 37, 17],
-  :home_town => "Glasgow",
-  :pets => [
+# users = {
+#   "Tanny" => {
+#   :twitter => "rorsach",
+#   :lottery_numbers => [23, 41, 7, 2, 37, 17],
+#   :home_town => "Glasgow",
+#   :pets => [
+#     {
+#       :name => "Kiwi",
+#       :species => "Bird"
+#     },
+#     ]
+#   }
+# }
+
+new_person = {
+  twitter: "codeclan",
+  lottery_numbers: [1, 2, 9, 10, 14, 28],
+  home_town: "Glasgow",
+  pets: [
     {
-      :name => "Kiwi",
-      :species => "Bird"
-    },
-    ]
-  }
+      name: "Sooty",
+      species: "Cat"
+    }
+  ]
 }
+
+p users ["Tanny"]
