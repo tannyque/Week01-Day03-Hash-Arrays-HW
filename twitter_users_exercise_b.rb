@@ -78,6 +78,13 @@ p users["Erik"][:lottery_numbers].min()
 
 p users["Avril"][:lottery_numbers].select{ |x| x.even? }
 
+# even_numbers = []
+# for number in users["Avril"][:lottery_numbers]
+#   even_numbers.push(number) if number.even?
+# end
+#
+# p even_numbers
+
 # Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
 
 p users["Erik"][:lottery_numbers].push(7)
