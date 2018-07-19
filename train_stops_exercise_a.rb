@@ -19,6 +19,11 @@ stops[2]
 stops.fetch(2)
 stops.at(2)
 stops.at(-5)
+for stop in stops
+  if stop == "Falkirk High"
+    station = stop
+  end
+end
 # Reverse the positions of the stops in the array
 stops.reverse()
 # Print out all the stops using a for loop
