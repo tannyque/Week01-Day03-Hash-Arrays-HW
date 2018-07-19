@@ -1,8 +1,8 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 # Add "Edinburgh Waverley" to the end of the array
-stops.push('Edinburgh Waverly')
+stops.push("Edinburgh Waverly")
 # Add "Glasgow Queen St" to the start of the array
-stops.unshift('Glasgow Queen St')
+stops.unshift("Glasgow Queen St")
 # Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 stops.insert(4, "Polmont")
 # stops.find_index("Linlithgow")
