@@ -54,5 +54,3 @@ total = 0
 for country in united_kingdom
   total += country[:population]
 end
-
-p total

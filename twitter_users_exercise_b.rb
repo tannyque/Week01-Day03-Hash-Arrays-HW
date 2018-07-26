@@ -133,5 +133,3 @@ new_person = {
     }
   ]
 }
-
-p users ["Tanny"]
